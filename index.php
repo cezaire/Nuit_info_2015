@@ -38,9 +38,8 @@
             <!--Formulaire alert -->
             <div class="col-lg-2">
                 <?php
-                include_once("./include/formAlert.php");
+                include_once("src/formAlert.php");
                 ?>
-
             </div>
             <!--Centre de la page -->
             <div class="col-lg-10">
@@ -59,13 +58,13 @@
     <!-- Ajout API Twitter-->
     <div class="col-lg-2">
         <?php
-        include_once("./include/tweet.php");
+        include_once("src/tweet.php");
         ?>
     </div>
     <div/>
 </div>
 <?php
-    include_once("./include/footer.php");
+    include_once("include/footer.php");
 ?>
 </body>
 </html>
