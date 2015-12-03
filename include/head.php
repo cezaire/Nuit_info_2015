@@ -1,12 +1,4 @@
 
-/**
- * Created by PhpStorm.
- * User: bloumy
- * Date: 03/12/2015
- * Time: 21:56
- */
-<!DOCTYPE html>
-<html lang="fr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
