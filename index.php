@@ -1,4 +1,3 @@
-
 /**
  * Created by PhpStorm.
  * User: leamsiollaid
@@ -13,7 +12,6 @@
 <body >
 <!--Header menu haut -->
 <div class="row" >
-
     <div class="col-lg-12">
         <header role="banner" class="navbar navbar-fixed-top navbar-inverse">
             <div class="container">
@@ -31,11 +29,10 @@
                 </div>
             </div>
         </header>
-
     </div>
 </div>
-<div class="row" >
 
+<div class="row" >
     <div class="col-lg-10">
         <div class="row">
             <!--Formulaire alert -->
@@ -65,8 +62,6 @@
         include_once("tweet.php");
         ?>
     </div>
-
-
     <div/>
 </div>
 </body>
