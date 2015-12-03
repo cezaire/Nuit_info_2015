@@ -6,7 +6,7 @@
  */
 
 <?php
-    include_once("./include/head.php");
+    include_once("include/head.php");
 ?>
 
 <body >
@@ -38,7 +38,7 @@
             <!--Formulaire alert -->
             <div class="col-lg-2">
                 <?php
-                include_once("formAlert.php");
+                include_once("./include/formAlert.php");
                 ?>
 
             </div>
@@ -59,7 +59,7 @@
     <!-- Ajout API Twitter-->
     <div class="col-lg-2">
         <?php
-        include_once("tweet.php");
+        include_once("./include/tweet.php");
         ?>
     </div>
     <div/>

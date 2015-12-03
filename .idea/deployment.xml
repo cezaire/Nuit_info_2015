@@ -12,7 +12,7 @@
       <paths name="local">
         <serverdata>
           <mappings>
-            <mapping deploy="\" local="$PROJECT_DIR$" web="/nuit_de_linfo" />
+            <mapping deploy="\" local="$PROJECT_DIR$" web="/Nuit_info_2015" />
           </mappings>
         </serverdata>
       </paths>
