@@ -1,4 +1,3 @@
-<?php
 
 /**
  * Created by PhpStorm.
@@ -6,9 +5,7 @@
  * Date: 03/12/2015
  * Time: 21:47
  */
-?>
-<!DOCTYPE html>
-<html lang="en">
+
 <?php
     include_once("./include/head.php");
 ?>
