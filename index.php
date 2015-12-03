@@ -10,6 +10,7 @@
 ?>
 
 <body >
+<div class="container"
 <!--Header menu haut -->
 <div class="row" >
     <div class="col-lg-12">
@@ -66,5 +67,6 @@
 <?php
     include_once("include/footer.php");
 ?>
+<div
 </body>
 </html>
