@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d8560f92-b8c3-4e72-971d-198bbcc31f08" name="local" url="http://localhost">
+        <fileTransfer mountedRoot="C:\wamp\www\nuit_de_linfo" accessType="MOUNT" />
+      </webServer>
+      <webServer id="add26b70-078c-40d9-a0d1-939a795cfdbb" name="ftp server" url="http://nuitdelinfo.comlu.com">
+        <fileTransfer host="nuitdelinfo.comlu.com" port="21" rootFolder="/public_html" username="a6673724">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -94,6 +94,7 @@
                     <span class="sr-only">Error:</span>
                     TEST: BOOTSTRAP
                 </div>
+                <audio src="audio/Generique.mp3" autoplay controls></audio>
             </div>
 
         </div>
