@@ -1,4 +1,3 @@
-
 <header class="row" >
    <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top col-lg-12" role="navigation">
@@ -30,7 +29,7 @@
                         <a href="#">Vidéos</a>
                     </li>
 				<?php
-				
+
 					if(isset($_SESSION['id_user']) and isset($_SESSION['pseudo']) )
 					{
 						echo '<li>
@@ -48,27 +47,27 @@
 				<?php
 
 
-			
+
 				if(isset($_SESSION['id_user']) and isset($_SESSION['pseudo']) )
 				{ ?>
 				  <ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
-					
+
 					  <a href="#" id="deconnexion-btn" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-user"> </span> <?php echo $_SESSION['pseudo']  ?></a>
-					  
+
 						  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
 							<li role="presentation" > <a href="../index.php?action=deco"> <span class="glyphicon glyphicon-off" > </span> Se deconnecter </a>  </li>
 							<li role="presentation" > <a href=<?php echo '"/profile.php"' ?> > <span class="glyphicon glyphicon-user" > </span> Profil </a>  </li>
 							<li role="presentation" > <a href="http://projetphp.ismaeldiallo.fr/configurer_profil.php" > <span class="glyphicon glyphicon-cog" > </span> Configurer </a>  </li>
-							
+
 						  </ul>
 					</li>
-				  </ul>					
-			
-				<?}
+				  </ul>
+
+				<?php }
 				else
 				{
-					echo '			  <ul class="nav navbar-nav navbar-right">
+					echo ' <ul class="nav navbar-nav navbar-right">
 						<li class="dropdown">
 
 						  <a href="#" id="connexion-btn" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-off"> </span> Se connecter</a>
@@ -90,13 +89,6 @@
 					  </ul>';
 				}
 				?>
-
-					
-		
-			
-
-
-			  
             </div>
 
             <!-- /.navbar-collapse -->
