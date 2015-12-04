@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+  <html>
   <head>
     <meta lang="fr">
     <meta charset="utf-8">
@@ -9,12 +9,12 @@
     <meta name="author" content="">
 
     <link rel="icon" href="favicon.ico">
-	<title>Nuit de l'info</title>
+    <title>Nuit de l'info</title>
     <!--CSS-->
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!--JAVASCRIPT-->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-   <!-- <script type="text/javascript" src="./assets/js/main.js"></script>-->
+    <!-- <script type="text/javascript" src="./assets/js/main.js"></script>-->
   </head>
