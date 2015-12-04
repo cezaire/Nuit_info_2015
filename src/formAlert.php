@@ -1,4 +1,4 @@
-<form class="form-horizontal">
+<form class="form-horizontal" action="../Model/alert.php">
     <fieldset>
 
         <!-- Form Name -->

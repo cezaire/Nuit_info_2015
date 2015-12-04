@@ -1,12 +1,12 @@
 <?php
-
 /**
  * Created by PhpStorm.
- * User: Sami
+ * User: bloumy
  * Date: 04/12/2015
- * Time: 01:13
+ * Time: 03:13
  */
-class Secours
+
+class Alert
 {
     private $_nom;
     private $_adresse;
