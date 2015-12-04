@@ -1,9 +1,12 @@
+<?php
+
 /**
  * Created by PhpStorm.
  * User: leamsiollaid
  * Date: 03/12/2015
  * Time: 21:47
  */
+?>
 
 <?php
     include_once("include/head.php");
@@ -14,24 +17,14 @@
 <!--Header menu haut -->
 <div class="row" >
     <div class="col-lg-12">
-        <header role="banner" class="navbar navbar-fixed-top navbar-inverse">
-            <div class="container">
-                <div class="navbar-header">
-                    <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="navbar-toggle pull-left"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                </div>
-                <div class="navbar-inverse side-collapse in">
-                    <nav role="navigation" class="navbar-collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="#users">Enfants</a></li>
-                            <li><a href="#">Places</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
+        <?php
+        include_once("include/header.php");
+        ?>
+
     </div>
 </div>
+
+
 
 <div class="row" >
     <div class="col-lg-10">
@@ -68,5 +61,13 @@
     include_once("include/footer.php");
 ?>
 <div
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="module.js"></script>
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="./bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+
 </body>
 </html>
